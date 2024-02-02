@@ -1,7 +1,7 @@
-body { 
-    /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
-    font-family: 'Manrope', sans-serif;
-    font-size: 1em;
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1em;
+  background-color: #1f2039;
 }
 
 main {
@@ -41,20 +41,37 @@ header a {
 }
 
 a {
-    color: black;
-    text-decoration: none;
+  color: #242424;
+  text-decoration: none;
 }
 
-.highlight {
-    color: #A5B4FC;
+em {
+  color: #a5b4fc;
+  font-style: normal;
 }
 
 h1 {
-    font-size: 3.5em;
-    color: #A5B4FC;
-    font-family: 'Montserrat', sans-serif;
+  font-size: 3.5em;
+  color: #a5b4fc;
+  font-family: 'Montserrat', sans-serif;
 }
 
-p {
-    font-size: 1.1em;
+h2 {
+  color: #f9f8ff;
+}
+
+p,
+li {
+  font-size: 1.1em;
+  color: #f9f8ff;
+}
+
+.entete,
+.pied-de-page {
+  background-color: white;
+}
+
+.cta {
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
 }
