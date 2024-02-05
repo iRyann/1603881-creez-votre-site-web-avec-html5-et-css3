@@ -4,42 +4,6 @@ body {
   background-color: #1f2039;
 }
 
-main {
-  background-color: #1F2039;
-}
-main h2 {
-  color: #F9F8FF;
-  text-align: center;
-  padding: 1em;
-}
-main p {
-  color: #F9F8FF;
-  padding: 1em;
-}
-main ul {
-  color: #F9F8FF;
-  padding: 1em;
-} 
-footer {
-  background-color:white;
-  color: white;
-  text-align: center;
-}
-footer a {
-  color: #242424;
-  text-decoration: none;
-}
-
-header {
-  background-color: white;
-  color: white;
-  text-align: center;
-}
-header a {
-  color: #242424;
-  text-decoration: none;
-}
-
 a {
   color: #242424;
   text-decoration: none;
@@ -74,4 +38,10 @@ li {
 .cta {
   background: linear-gradient(#8e86b5, #acaeed);
   color: white;
+  border-radius: 50px;
+}
+
+.carre-contenu {
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
 }
