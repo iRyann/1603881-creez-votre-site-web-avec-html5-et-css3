@@ -51,6 +51,19 @@ a[cta]:hover {
   opacity: 0.5;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+.cta:hover {
+  background: linear-gradient(#696484, #8788ba);
+  text-decoration: none;
+}
+
+.lien-icone:hover {
+  opacity: 0.5;
+}
+
 .carre-contenu {
   border-right: 1px solid #8e86b5;
   border-bottom: 1px solid #8e86b5;
