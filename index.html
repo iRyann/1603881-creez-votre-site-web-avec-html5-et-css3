@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Script génération images -->
+    <script src="JS/accueil.js"></script>
 </head>
 
 <body>
@@ -21,22 +23,25 @@
         </nav>
     </header>
     <main>
-        <section>
-            <div>
+        <section class="Accueil_Intro">
+            <div id="AI_Left">
                 <h1>Robbie Lens Photographie</h1>
                 <p>
                     Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis
                     plus de 5 ans maintenant, j’exerce mon métier avec la passion
                     qui m’anime : capturer l’essence de chaque instant.
                 </p>
-            </div>
-            <img src="images/robbie-lens.png" alt="Portrait avec effet de la photographe Robbie Lens" >
-            <div>
                 <a href="" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
             </div>
+            <img src="images/robbie-lens.png" alt="Portrait avec effet de la photographe Robbie Lens" >
         </section>
-        <section>
-            <h2>Mon dernier projet</h2>
+        <section class="Accueil_Project">
+            <div>
+                <h2 id="titleSec2">Mon dernier projet</h2>
+            </div>
+            <div class="flex-container" id="imageGrid">   
+            </div>
+              
         </section>
     </main>
     <footer>
