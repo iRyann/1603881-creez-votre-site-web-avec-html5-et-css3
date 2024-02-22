@@ -131,9 +131,17 @@ nav a {
 }
 
 .portfolio-section-photos h2 {
+  font-family: Manrope;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
   color: #242424;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
+
 
 .grid-paysages img,
 .grid-portraits img {
@@ -141,4 +149,93 @@ nav a {
   height: 100%;
   /* Même si vous ne connaissez pas cette propriété, vous en aurez besoin pour permettre aux images de respecter les dimensions de la grid CSS */
   object-fit: cover;
+  /* Permet de ne pas déformer les images */
+}
+
+.grid-paysages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3,300px);
+  gap: 15px;
+}
+
+.grid-portraits {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2,300px);
+  gap: 15px;
+}
+
+.picture:hover {
+  position: relative;
+  opacity: 70%;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  
+}
+
+/* Grille paysages */
+#paysage1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+#paysage2 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+#paysage3 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+#paysage4 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+#paysage5 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+#paysage6 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+#paysage7 {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+#paysage8 {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+#paysage9 {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
+
+/* Grille portraits */
+#portrait1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+#portrait2 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+#portrait3 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+#portrait4 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+#portrait5 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+#portrait6 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
 }
