@@ -82,3 +82,17 @@ section {
   width: 50%;
   margin: auto;
 }
+
+nav,footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin: 0 20px;
+}
+footer a {
+  margin: 0 10px;
+}
+
